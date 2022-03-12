@@ -31,7 +31,7 @@
   }
 
   .left {
-    width: 25%;
+    width: 30%;
     margin: 2px;
     float: left;
     padding: 10px;
@@ -177,7 +177,7 @@
   }
   .article2{
     margin-top: -460px;
-    margin-left: 750px;
+    margin-left: 550px;
     position: relative;
   }
   .article3{
@@ -187,7 +187,7 @@
   }
   .center4{
     margin-top: -440px;
-    margin-left: 750px;
+    margin-left: 550px;
     position: absolute;
   }
   .InfoVideo1{
@@ -218,6 +218,6 @@
     font-family: fantasy;
     position: absolute;
     margin-top: -190px;
-    margin-left: 850px;
+    margin-left: 600px;
     text-align: center;
    }
