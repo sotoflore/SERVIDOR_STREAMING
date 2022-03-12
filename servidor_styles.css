@@ -9,6 +9,7 @@
       align-content: center;
       padding: 10px;
       background: #f1f1f1;
+      background-image: url(img/fondo.jpeg);
   }
 
   img {
@@ -22,6 +23,7 @@
   /* Header/Blog Title */
   .header {
     width: 99%;
+    height: 50px;
     margin: 2px;
     padding: 10px;
     text-align: center;
@@ -29,25 +31,41 @@
   }
 
   .left {
-    width: 34%;
+    width: 25%;
     margin: 2px;
     float: left;
     padding: 10px;
     margin-top: 5px;
-    background :white;
+    text-align: center;
+    font-family: fantasy;
+    background: whitesmoke;
+    color: white;
+    font-size: 40px;
+
+    text-shadow: 0 0 15px #000; 
+    -moz-text-shadow: 0 0 80px #000;
+    -webkit-text-shadow: 0 0 50px #000;
+
+
   }
 
   .main {
-    width: 64%;
+    width: 64.8%;
     margin: 2px;
     float: left;
     padding: 10px;
     margin-top: 5px;
     font-size: 18px;
-    background: white;
     line-height: 1.6;
   }
-
+  .main h1{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    font-family: fantasy;
+    margin-top: -20px;
+    text-shadow: 2px 2px 12px red, -6px -6px 12px blue ;
+  }
   .footer {
     padding: 10px;
     margin: 2px;
@@ -75,10 +93,12 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1px 16px;
     text-decoration: none;
     font-size: 20px;
     border-bottom: 5px solid transparent;
+    font-size:25px;
+    font-family: fantasy;
   }
 
   .topnav a:hover { /*mouse over it:*/
@@ -101,8 +121,10 @@
     text-align: left;
     padding: 10px 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 25px;
     border-bottom: 5px solid transparent;
+    text-align: center;
+    font-family: fantasy;
   }
 
   .lateral-nav a:hover {
@@ -147,3 +169,55 @@
       text-align: left;
     }
   }
+
+  .article1{
+    margin-top: -50px;
+    margin-left: 50px;
+    position: relative;
+  }
+  .article2{
+    margin-top: -460px;
+    margin-left: 750px;
+    position: relative;
+  }
+  .article3{
+    margin-top: -20px;
+    margin-left: 50px;
+    position: relative;
+  }
+  .center4{
+    margin-top: -440px;
+    margin-left: 750px;
+    position: absolute;
+  }
+  .InfoVideo1{
+   color: #f1f1f1;
+   font-family: fantasy;
+   text-align: center;
+    margin-left: -580px;
+    margin-top: 10px;
+    position:relative;
+  }
+  .InfoVideo2{
+    color: #f1f1f1;
+    font-family: fantasy;
+    text-align: center;
+  
+
+   }
+   .InfoVideo3{
+    color: #f1f1f1;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: -580px;
+    margin-top: -10px;
+    position:relative;
+   }
+   .InfoVideo4{
+    color: #f1f1f1;
+    font-family: fantasy;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 850px;
+    text-align: center;
+   }
